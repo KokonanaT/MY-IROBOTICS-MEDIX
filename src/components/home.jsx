@@ -3,7 +3,7 @@ import React from 'react';
 const Home = () => {
   return (
     <div className='min-h-screen relative'>
-      <div className='absolute inset-0 bg-cover bg-center' style={{ backgroundImage: "url('public/images/service background.jpg')" }}></div>
+      <div className='absolute inset-0 bg-cover bg-center' style={{ backgroundImage: "url('/images/service background.jpg')"  }}></div>
       <div className='absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white'>
         <div className='max-w-4xl px-6 text-center'>
           <h1 className='text-4xl font-bold mb-6 leading-tight'>AI Transforming the Future of Healthcare</h1>
